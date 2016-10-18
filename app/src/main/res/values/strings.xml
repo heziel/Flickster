@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flickster</string>
+    <string name="database_url">https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed</string>
+    <string name="title_activity_information"></string>
+</resources>

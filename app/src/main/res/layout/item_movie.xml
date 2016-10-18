@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/ivMovieImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/small_movie_poster"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/ivMovieImage"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        tools:hint="The Dark Knight"
+        android:paddingLeft="20dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_below="@+id/tvTitle"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:paddingLeft="20dp"
+ />
+
+    </RelativeLayout>
+
+</RelativeLayout>
